@@ -1,0 +1,25 @@
+{
+  "domain": "eheimdigital",
+  "name": "EHEIM.digital",
+  "codeowners": ["@autinerd"],
+  "config_flow": true,
+  "dependencies": [],
+  "dhcp": [
+    {
+      "hostname": "eheimdigital",
+      "macaddress": "*"
+    }
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/eheimdigital",
+  "homekit": {},
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "requirements": ["eheimdigital==1.0.0"],
+  "ssdp": [],
+  "zeroconf": [
+    {
+      "type": "_http._tcp.local.",
+      "name": "eheimdigital*"
+    }
+  ]
+}

@@ -125,6 +125,11 @@ DHCP: Final[list[dict[str, str | bool]]] = [
         "hostname": "dsp-w215",
     },
     {
+        "domain": "eheimdigital",
+        "hostname": "eheimdigital",
+        "macaddress": "*",
+    },
+    {
         "domain": "elkm1",
         "registered_devices": True,
     },
