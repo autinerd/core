@@ -1,5 +1,6 @@
 """Config flow for EHEIM.digital."""
-from eheimdigital.EheimDigitalHub import EheimDigitalHub
+
+from eheimdigital.hub import EheimDigitalHub
 
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers import config_entry_flow

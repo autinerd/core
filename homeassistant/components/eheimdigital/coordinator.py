@@ -1,8 +1,9 @@
 """Data update coordinator for EHEIM.digital devices."""
+
 from datetime import timedelta
 import logging
 
-from eheimdigital.EheimDigitalHub import EheimDigitalHub
+from eheimdigital.hub import EheimDigitalHub
 
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 
